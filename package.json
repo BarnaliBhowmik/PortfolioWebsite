@@ -1,5 +1,17 @@
 {
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing AI/ML projects and backend development skills",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "vite": "^6.3.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
