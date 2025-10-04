@@ -16,7 +16,11 @@ export default defineConfig({
     sourcemap: false,
     rollupOptions: {
       input: {
-        main: './index.html'
+        main: './index.html',
+        about: './about.html',
+        work: './work.html',
+        project: './project.html',
+        contact: './contact.html'
       }
     }
   },
