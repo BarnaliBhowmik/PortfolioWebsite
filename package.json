@@ -15,7 +15,7 @@
   {
     "version": 2,
     "cleanUrls": true
-  },
+  }
   "engines": {
     "node": "18.17.1"
   }
