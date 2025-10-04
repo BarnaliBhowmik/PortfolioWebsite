@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - My Projects</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <video id="loading-video" autoplay muted loop>
+                <source src="Loading_Page.mp4" type="video/mp4">
+                <!-- Fallback content if video doesn't load -->
+                <div class="loading-fallback">
+                    <div class="spinner"></div>
+                    <h2>Loading...</h2>
+                </div>
+            </video>
+        </div>
+    </div>
+
+    <!-- Main Content (hidden initially) -->
+    <div id="main-content" class="main-content">
+    <header class="sidebar-nav">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Portfolio_Logo.png" alt="Portfolio Logo" class="logo-img">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="nav-item" data-tooltip="Home">
+                <i class='bx bx-home'></i>
+                <img src="Home_Icon.jpg" alt="Home Icon">
+            </a>
+            <a href="about.html" class="nav-item" data-tooltip="About">
+                <i class='bx bx-user'></i>
+                <img src="Account_Icon.jpg" alt="Account Icon"> 
+            </a>
+            <a href="work.html" class="nav-item" data-tooltip="Work">
+                <i class='bx bx-briefcase'></i>
+                <img src="Work_Icon.jpg" alt="Work Icon">
+            </a>
+            <a href="project.html" class="nav-item active" data-tooltip="Projects">
+                <i class='bx bx-folder'></i>
+                <img src="Project_Icon.jpg" alt="Project Icon">
+            </a>
+            <a href="contact.html" class="nav-item" data-tooltip="Contact">
+                <i class='bx bx-message-dots'></i>
+                <img src="Contact_Icon.jpg" alt="Contact Icon">
+            </a>
+        </nav>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/barnalibhowmik8/" class="social-item" data-tooltip="LinkedIn">
+                <i class='bxl bx-linkedin'></i>
+            </a>
+            <a href="https://github.com/BarnaliBhowmik" class="social-item" data-tooltip="Github">
+                <i class='bxl bx-github'></i>
+            </a>
+            <a href="https://www.instagram.com/b.arhana_1721/" class="social-item" data-tooltip="Instagram">
+                <i class='bxl bx-instagram'></i>
+            </a>
+            <a href="mailto:bbhowmik179@gmail.com" class="social-item" data-tooltip="Email">
+                <i class='bxl bx-gmail'></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="project-section">
+        <div class="project-content">
+            <h1>My Projects</h1>
+
+            <div class="project-grid">
+                <a href="https://github.com/BarnaliBhowmik/PythonProjects/tree/main/CCP" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Churn Survival & Analysis Prediction Model</h3>
+                            <p>Developed a Churn Survival and Analysis Prediction Model using multiple machine learning classifiers, achieving a highest accuracy of <strong>88.5%</strong> with <strong>Support Vector Classifier (SVC)</strong> after hyperparameter tuning via <strong>GridSearchCV</strong>, to help businesses retain customers.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>GridSearchCV</span>
+                                <span>Pandas</span>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="ChurnModel_fc.png" alt="Churn Survival & Analysis Prediction Model">
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/BarnaliBhowmik/NeuroQuanta/blob/main/Hand_on_lab_Implementing_and_Training_a_Simple_RNN_for_Sine_Wave_Prediction.ipynb" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Sine Wave Predictor</h3>
+                            <p>Developed and trained a simple <strong>Recurrent Neural Network (RNN)</strong> to predict sine wave patterns with a validation loss of approximately <strong>0.0005</strong>, demonstrating effective temporal pattern learning using sequential data</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>TensorFlow/Keras</span>
+                                <span>Matplotlib</span>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="SineWavePredictor.png" alt="Sine Wave Predictor">
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/BarnaliBhowmik/NeuroQuanta/blob/main/Quantum_Programming_with_Cirq.ipynb" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Quantum Circuits with Cirq</h3>
+                            <p>This project explores quantum circuit development in <strong>Cirq 1.0</strong>, demonstrating qubit definition, gate operations, circuit construction and simulation with and without noise models, and execution on a simulated <strong>Quantum Virtual Machine</strong>.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Cirq</span>
+                                <span>Quantum Computing</span>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="QVMwithcirq.png" alt="Quantum Circuits with Cirq">
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/BarnaliBhowmik/Portfolio" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>Designed and developed this responsive portfolio website with modern <strong>UI/UX principles</strong> and interactive animations.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="Portfolio.png" alt="Portfolio Website">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    </div> <!-- End main-content -->
+    <script src="main.js"></script>
+</body>
+</html>

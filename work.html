@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work - Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <video id="loading-video" autoplay muted loop>
+                <source src="Loading_Page.mp4" type="video/mp4">
+                <!-- Fallback content if video doesn't load -->
+                <div class="loading-fallback">
+                    <div class="spinner"></div>
+                    <h2>Loading...</h2>
+                </div>
+            </video>
+        </div>
+    </div>
+
+    <!-- Main Content (hidden initially) -->
+    <div id="main-content" class="main-content">
+    <header class="sidebar-nav">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Portfolio_Logo.png" alt="Portfolio Logo" class="logo-img">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="nav-item" data-tooltip="Home">
+                <i class='bx bx-home'></i>
+                <img src="Home_Icon.jpg" alt="Home Icon">
+            </a>
+            <a href="about.html" class="nav-item" data-tooltip="About">
+                <i class='bx bx-user'></i>
+                <img src="Account_Icon.jpg" alt="Account Icon"> 
+            </a>
+            <a href="work.html" class="nav-item active" data-tooltip="Work">
+                <i class='bx bx-briefcase'></i>
+                <img src="Work_Icon.jpg" alt="Work Icon">
+            </a>
+            <a href="project.html" class="nav-item" data-tooltip="Projects">
+                <i class='bx bx-folder'></i>
+                <img src="Project_Icon.jpg" alt="Project Icon">
+            </a>
+            <a href="contact.html" class="nav-item" data-tooltip="Contact">
+                <i class='bx bx-message-dots'></i>
+                <img src="Contact_Icon.jpg" alt="Contact Icon">
+            </a>
+        </nav>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/barnalibhowmik8/" class="social-item" data-tooltip="LinkedIn">
+                <i class='bxl bx-linkedin'></i>
+            </a>
+            <a href="https://github.com/BarnaliBhowmik" class="social-item" data-tooltip="Github">
+                <i class='bxl bx-github'></i>
+            </a>
+            <a href="https://www.instagram.com/b.arhana_1721/" class="social-item" data-tooltip="Instagram">
+                <i class='bxl bx-instagram'></i>
+            </a>
+            <a href="mailto:bbhowmik179@gmail.com" class="social-item" data-tooltip="Email">
+                <i class='bxl bx-gmail'></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="work-section">
+        <div class="work-content">
+            <h1>My Work Experience</h1>
+            
+            <a href="https://www.linkedin.com/posts/microsyslogic-technologies_microsyslogictech-vjitcollege-internshipprogram-activity-7376582249716047873-YLoR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVHjPoBW1Vyd7rKYsgkipSRdt2kFvlOhT8" target="_blank" class="work-link">
+                <div class="work-item">
+                    <div class="work-logo">
+                        <img src="microsyslogic_Icon.png" alt="Freelance Logo">
+                    </div>
+                    <div class="work-basic-info">
+                        <h3>Backend Intern</h3>
+                        <h4>MicroSysLogic Technologies</h4>
+                        <p class="work-duration">Sep 2025 - Present</p>
+                    </div>
+                    <div class="work-details">
+                        <ul>
+                            <li>Updates soon...</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
+            <div class="work-item">
+                <div class="work-logo">
+                    <img src="Swecha_Icon.jpeg" alt="Swecha Telangana Logo">
+                </div>
+                <div class="work-basic-info">
+                    <h3>AI Developer Intern</h3>
+                    <h4>Swecha Telangana</h4>
+                    <p class="work-duration">May 2025 - June 2025</p>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Worked on Python for AI, NLP, dataset curation, model training, and prompt engineering - with a focus to build an inclusive Telugu LLM as the final project.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-item">
+                <div class="work-logo">
+                    <img src="Portfolio_Logo.png" alt="Self Learning Logo">
+                </div>
+                <div class="work-basic-info">
+                    <h3>Student & Self-Learner</h3>
+                    <h4>Open Source Community</h4>
+                    <p class="work-duration">2023 - Present</p>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>AI & ML student exploring MLOps, backend architectures, and quantum-inspired cognitive systems.</li>
+                        <li>Active member of <strong>OPEN SOURCE FORGE Team</strong> of Google Developers Group at VJIT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div> <!-- End main-content -->
+    <script src="main.js"></script>
+</body>
+</html>
